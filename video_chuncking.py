@@ -17,7 +17,7 @@ import os
 # ## 2. JSON response:
 # Once all the chunks have been processed, the results can be combined into a single JSON response. The result of each chunck can be written into a temporary file. These temporary files can be read back in and combined into a single JSON response. 
 
-# Set up the YoloV3 model
+# Set up the YoloV5 model
 model = torch.hub.load('ultralytics/yolov5', 'yolov5n', pretrained=True)
 
 # Set up the video reader
